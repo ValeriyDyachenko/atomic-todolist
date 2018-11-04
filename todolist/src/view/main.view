@@ -1,0 +1,20 @@
+<div class="intro-wrapper">
+    <h1>TODOLIST (SPA, MVP, ES5)</h1>
+    <img class="header-img" src="/todolist/resources/okay.jpg">
+    <h2>Без фреймворков и библиотек. Ноль зависимостей.</h2>
+</div>
+<div id="panel"></div>
+<div id="add-new-item"></div>
+<div id="list"></div>
+<div class="description">
+    <ul>
+        <li>Нажмите кнопку "Добавить заметку" и напечатайте текст, чтобы добавить заметку</li>
+        <li>Для выделения заметки кликните по ней 1 раз</li>
+        <li>Чтобы изменить цвет сложной заметки, кликните по ней 2 раза</li>
+        <li>Чтобы удалить заметку нажмите на крестик после заметки</li>
+        <li>На панеле сверху отображается текущее состояние заметок</li>
+        <li>&copy; Валерий Дьяченко</li>
+    </ul>
+</div>
+<div id="modal-window-new-item"></div>
+<div id="modal-window-delete-item"></div>

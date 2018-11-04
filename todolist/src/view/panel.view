@@ -1,0 +1,6 @@
+<span class="panel-item">Всего: <%this.all%></span>
+<span class="panel-item">Простых: <%this.simple%></span>
+<span class="panel-item">Сложных: <%this.complex%></span>
+<span class="panel-item">Зеленых: <%this.green%></span>
+<span class="panel-item">Красных: <%this.red%></span>
+<span class="panel-item">Выделено: <%this.selected%></span>

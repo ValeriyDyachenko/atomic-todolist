@@ -1,0 +1,21 @@
+<div class="list-wrapper">
+    <%for(var index in this) {%>
+        <%if (this[index].type === "complex") {%>
+            <div class="list-item <%this[index].color%>">
+                <%if (this[index].selected) {%>
+                    <div class="item-list-item-control selected-item">✓</div>
+                <%}%>
+                <%this[index].value%>
+                <div data-type=<%this[index].type%> data-index=<%index%> class="item-list-item-control delete-item">&times;</div>
+            </div>
+        <%} else if (this[index].type === "simple") {%>
+            <div class="list-item <%this[index].selected%>">
+                <%if (this[index].selected) {%>
+                    <div class="item-list-item-control selected-item">✓</div>
+                <%}%>
+                <%this[index].value%>
+                <div data-type=<%this[index].type%> data-index=<%index%> class="item-list-item-control delete-item">&times;</div>
+            </div>
+        <%}%>
+    <%}%>
+</div>
